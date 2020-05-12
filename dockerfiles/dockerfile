@@ -2,8 +2,8 @@ FROM ubuntu:16.04
 
 RUN apt-get update
 RUN apt-get install -y nginx 
-RUN mkdir /tmp/DevOps_G
-RUN touch /tmp/DevOps_G/amit
+RUN mkdir /tmp/learn_docker
+RUN touch /tmp/learn_docker/learn
 
 EXPOSE 80
 CMD /usr/sbin/nginx -g "daemon off;"
